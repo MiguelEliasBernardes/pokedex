@@ -4,11 +4,47 @@
     box-sizing: border-box;
 }
 
-section{
-    width: 80%;
-    margin: 0 auto;
+header{
+    background-color: brown;
+    display: flex;
+    color: white;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
 }
 
-.pokemon, .dados{
+main{
+    height: 100vh;
+}
+
+section{
+    background-image: url(images/fundo.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: none;
+}
+
+.center{
+    background-color: lightblue;
+    height: 70vh;
+    width: 60vh;
+}
+
+.pokemon{
     text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    margin: 30px auto 20px auto;
+    border-radius: 5px 25px 5px 25px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 1);
+}
+
+.pokemon img{
+    width: 80%;
 }
