@@ -33,10 +33,9 @@ section{
 }
 
 .center{
-    padding-top: 30px;
     background-color:#9d1919;
-    height: 70vh;
-    width: 60vh;
+    height: 80vh;
+    width: 70vh;
     border-radius: 100px 20px 100px 20px;
     box-shadow: 20px 20px 20px;
 }
@@ -66,7 +65,7 @@ h2{
     margin: 0 10%;
     font-family: "Anta", sans-serif;
     font-weight: 400;
-    font-size: 25px;
+    font-size:20px;
 }
 
 ul{
@@ -81,7 +80,7 @@ ul{
     background-color: #6390F0;
     width: 30%;
     height: 40px;
-    font-size:30px;
+    font-size:25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,7 +97,7 @@ ul{
     background-color: #F95587;
     width: 30%;
     height: 40px;
-    font-size:30px;
+    font-size:25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,7 +114,7 @@ ul{
     background-color: #EE8130;
     width: 30%;
     height: 40px;
-    font-size:30px;
+    font-size:25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -132,7 +131,7 @@ ul{
     background-color: #A8A77A;
     width: 30%;
     height: 40px;
-    font-size:30px;
+    font-size:25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -149,7 +148,7 @@ ul{
     background-color: #F7D02C;
     width: 30%;
     height: 40px;
-    font-size:30px;
+    font-size:25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -166,7 +165,7 @@ ul{
     background-color: #7AC74C;
     width: 30%;
     height: 40px;
-    font-size:30px;
+    font-size:25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -183,7 +182,7 @@ ul{
     background-color: #96D9D6;
     width: 30%;
     height: 40px;
-    font-size:30px;
+    font-size:25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -200,7 +199,7 @@ ul{
     background-color: #C22E28;
     width: 30%;
     height: 40px;
-    font-size:30px;
+    font-size:25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -217,7 +216,7 @@ ul{
     background-color: #A33EA1;
     width: 30%;
     height: 40px;
-    font-size:30px;
+    font-size:25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -234,7 +233,7 @@ ul{
     background-color: #E2BF65;
     width: 30%;
     height: 40px;
-    font-size:30px;
+    font-size:25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -251,7 +250,7 @@ ul{
     background-color: #A98FF3;
     width: 30%;
     height: 40px;
-    font-size:30px;
+    font-size:25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -268,7 +267,7 @@ ul{
     background-color: #A6B91A;
     width: 30%;
     height: 40px;
-    font-size:30px;
+    font-size:25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -285,7 +284,7 @@ ul{
     background-color: #B6A136;
     width: 30%;
     height: 40px;
-    font-size:30px;
+    font-size:25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -302,7 +301,7 @@ ul{
     background-color: #735797;
     width: 30%;
     height: 40px;
-    font-size:30px;
+    font-size:25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -319,7 +318,7 @@ ul{
     background-color: #6F35FC;
     width: 30%;
     height: 40px;
-    font-size:30px;
+    font-size:25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -336,7 +335,7 @@ ul{
     background-color: #705746;
     width: 30%;
     height: 40px;
-    font-size:30px;
+    font-size:25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -353,7 +352,7 @@ ul{
     background-color: #B7B7CE;
     width: 30%;
     height: 40px;
-    font-size:30px;
+    font-size:25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -370,7 +369,7 @@ ul{
     background-color: #D685AD;
     width: 30%;
     height: 40px;
-    font-size:30px;
+    font-size:25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -387,8 +386,8 @@ ul{
 .caracteristicas{
     display: flex;
     justify-content: center;
-    margin-top: 40px;
-    gap: 70px;
+    margin-top: 5vh;
+    gap: 5%;
     font-size: 20px;
     font-family: "Montserrat";
     color: white;
@@ -415,7 +414,7 @@ hr{
 }
 
 h3{
-    font-size: 20px;
+    font-size: 17px;
     font-family: "Montserrat";
 }
 
