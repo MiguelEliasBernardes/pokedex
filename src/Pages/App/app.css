@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
 }
 
 header{
@@ -11,10 +18,6 @@ header{
     height: 10vh;
     justify-content: center;
     align-items: center;
-}
-
-main{
-    height: 100vh;
 }
 
 section{
@@ -30,21 +33,426 @@ section{
 }
 
 .center{
-    background-color: lightblue;
+    padding-top: 30px;
+    background-color:#9d1919;
     height: 70vh;
     width: 60vh;
+    border-radius: 100px 20px 100px 20px;
+    box-shadow: 20px 20px 20px;
 }
 
 .pokemon{
     text-align: center;
     background-color: rgb(255, 255, 255);
-    width: 40%;
-    margin: 30px auto 20px auto;
-    border-radius: 5px 25px 5px 25px;
-    border: 2px solid black;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 1);
+    width: 80%;
+    height: 20vh;
+    margin: 30px auto 0 auto;
+    border-radius: 100px 20px 100px 0;
+    border: 3px solid black;
+    box-shadow: 5px 4px 10px rgb(0, 0, 0);
 }
 
 .pokemon img{
+    height: 100%;
+}
+
+h2{
+    text-align: center;
+    background-color: white;
+    width: 40%;
+    height: auto;
+    border: 2px solid black;
+    border-radius:10px 10px 100px 100px;
+    margin: 0 10%;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+ul{
+    margin-top: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.water{
+    background-color: #6390F0;
+    width: 30%;
+    height: 40px;
+    font-size:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+    text-shadow: 4px 2px black;
+    border-radius: 20px;
+    padding-bottom: 5px;
+}
+
+.psychic{
+    background-color: #F95587;
+    width: 30%;
+    height: 40px;
+    font-size:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+    text-shadow: 4px 2px black;
+    border-radius: 20px;
+    padding-bottom: 5px;
+}
+
+.fire{
+    background-color: #EE8130;
+    width: 30%;
+    height: 40px;
+    font-size:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+    text-shadow: 4px 2px black;
+    border-radius: 20px;
+    padding-bottom: 5px;
+}
+
+.normal{
+    background-color: #A8A77A;
+    width: 30%;
+    height: 40px;
+    font-size:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+    text-shadow: 4px 2px black;
+    border-radius: 20px;
+    padding-bottom: 5px;
+}
+
+.electric{
+    background-color: #F7D02C;
+    width: 30%;
+    height: 40px;
+    font-size:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+    text-shadow: 4px 2px black;
+    border-radius: 20px;
+    padding-bottom: 5px;
+}
+
+.grass{
+    background-color: #7AC74C;
+    width: 30%;
+    height: 40px;
+    font-size:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+    text-shadow: 4px 2px black;
+    border-radius: 20px;
+    padding-bottom: 5px;
+}
+
+.ice{
+    background-color: #96D9D6;
+    width: 30%;
+    height: 40px;
+    font-size:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+    text-shadow: 4px 2px black;
+    border-radius: 20px;
+    padding-bottom: 5px;
+}
+
+.fighting{
+    background-color: #C22E28;
+    width: 30%;
+    height: 40px;
+    font-size:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+    text-shadow: 4px 2px black;
+    border-radius: 20px;
+    padding-bottom: 5px;
+}
+
+.poison{
+    background-color: #A33EA1;
+    width: 30%;
+    height: 40px;
+    font-size:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+    text-shadow: 4px 2px black;
+    border-radius: 20px;
+    padding-bottom: 5px;
+}
+
+.ground{
+    background-color: #E2BF65;
+    width: 30%;
+    height: 40px;
+    font-size:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+    text-shadow: 4px 2px black;
+    border-radius: 20px;
+    padding-bottom: 5px;
+}
+
+.flying{
+    background-color: #A98FF3;
+    width: 30%;
+    height: 40px;
+    font-size:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+    text-shadow: 4px 2px black;
+    border-radius: 20px;
+    padding-bottom: 5px;
+}
+
+.bug{
+    background-color: #A6B91A;
+    width: 30%;
+    height: 40px;
+    font-size:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+    text-shadow: 4px 2px black;
+    border-radius: 20px;
+    padding-bottom: 5px;
+}
+
+.rock{
+    background-color: #B6A136;
+    width: 30%;
+    height: 40px;
+    font-size:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+    text-shadow: 4px 2px black;
+    border-radius: 20px;
+    padding-bottom: 5px;
+}
+
+.ghost{
+    background-color: #735797;
+    width: 30%;
+    height: 40px;
+    font-size:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+    text-shadow: 4px 2px black;
+    border-radius: 20px;
+    padding-bottom: 5px;
+}
+
+.dragon{
+    background-color: #6F35FC;
+    width: 30%;
+    height: 40px;
+    font-size:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+    text-shadow: 4px 2px black;
+    border-radius: 20px;
+    padding-bottom: 5px;
+}
+
+.dark{
+    background-color: #705746;
+    width: 30%;
+    height: 40px;
+    font-size:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+    text-shadow: 4px 2px black;
+    border-radius: 20px;
+    padding-bottom: 5px;
+}
+
+.steel{
+    background-color: #B7B7CE;
+    width: 30%;
+    height: 40px;
+    font-size:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+    text-shadow: 4px 2px black;
+    border-radius: 20px;
+    padding-bottom: 5px;
+}
+
+.fairy{
+    background-color: #D685AD;
+    width: 30%;
+    height: 40px;
+    font-size:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+    text-shadow: 4px 2px black;
+    border-radius: 20px;
+    padding-bottom: 5px;
+}
+
+
+.caracteristicas{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 70px;
+    font-size: 20px;
+    font-family: "Montserrat";
+    color: white;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+
+hr{
     width: 80%;
+    margin: 30px auto;
+    height: 3px;
+    background-color: white;
+}
+
+
+.recolher{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+h3{
+    font-size: 20px;
+    font-family: "Montserrat";
+}
+
+.recebe-dados{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.recebe-dados input[type='text']{
+    height: 40px;
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: -4px 3px black;
+    padding-left: 10px;
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+
+.recebe-dados button{
+    margin-left: 20px;
+    width: 25%;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: -4px 3px black;
+    font-size: 20px;
+    font-family: "Anta";
+    background-color: #7AC74C;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+button:hover{
+    box-shadow: -3px 2px black;
+    font-size: 21px;
+    background-color: #8ac866;
 }
